@@ -99,6 +99,21 @@ git push -u origin main
 - Basit akıllı ev senaryoları tasarlama
 - ESP32 ile Wi-Fi tabanlı kontrol ve izleme mantığını kavrama
 
-## Lisans
+## Lisans ve Atıf
 
-Bu eğitim materyali MIT lisansı ile paylaşılabilir.
+Bu depodaki kaynak kodlar ve uygulama dosyaları MIT Lisansı ile paylaşılmıştır.
+
+Bu proje eğitim ve öğretim amacıyla hazırlanmıştır. Kodların, devre şemalarının,
+ders materyallerinin, proje açıklamalarının veya bu materyalden türetilmiş
+çalışmaların kullanılması durumunda aşağıdaki şekilde kaynak gösterilmesi
+ahlaki ve akademik olarak beklenir:
+
+**Abdullah ATILGAN, "Akıllı Ev Otomasyon Sistemleri - ESP32 Wokwi Temel Uygulamalar Proje Seti", 2026.**
+
+Önerilen atıf biçimi:
+
+```text
+Atilgan, A. (2026). Akıllı Ev Otomasyon Sistemleri - ESP32 Wokwi Temel Uygulamalar Proje Seti. GitHub Repository.
+```
+
+Ayrıntılar için `LICENSE`, `NOTICE` ve `CITATION.cff` dosyalarına bakınız.

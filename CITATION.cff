@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Akıllı Ev Otomasyon Sistemleri - ESP32 Wokwi Temel Uygulamalar Proje Seti"
+message: "Bu materyali kullanıyorsanız lütfen aşağıdaki şekilde atıf veriniz."
+type: software
+authors:
+  - family-names: "ATILGAN"
+    given-names: "Abdullah"
+year: 2026
+license: MIT
+repository-code: "https://github.com/KULLANICI_ADI/IOT-Temel-Uygulamalar"
+preferred-citation:
+  type: generic
+  title: "Akıllı Ev Otomasyon Sistemleri - ESP32 Wokwi Temel Uygulamalar Proje Seti"
+  authors:
+    - family-names: "ATILGAN"
+      given-names: "Abdullah"
+  year: 2026
