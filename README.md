@@ -99,6 +99,7 @@ git push -u origin main
 - Basit akıllı ev senaryoları tasarlama
 - ESP32 ile Wi-Fi tabanlı kontrol ve izleme mantığını kavrama
 
+
 ## Lisans ve Atıf
 
 Bu depodaki kaynak kodlar ve uygulama dosyaları MIT Lisansı ile paylaşılmıştır.
