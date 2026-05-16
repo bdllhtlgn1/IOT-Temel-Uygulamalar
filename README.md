@@ -114,7 +114,7 @@ ahlaki ve akademik olarak beklenir:
 Önerilen atıf biçimi:
 
 ```text
-Atilgan, A. (2026). Akıllı Ev Otomasyon Sistemleri - ESP32 Wokwi Temel Uygulamalar Proje Seti. GitHub Repository.
+Atilgan, A. (2026). Akıllı Ev Otomasyon Sistemleri - ESP32 Wokwi Temel Uygulamalar Proje Seti. https://github.com/bdllhtlgn1/IOT-Temel-Uygulamalar.
 ```
 
 Ayrıntılar için `LICENSE`, `NOTICE` ve `CITATION.cff` dosyalarına bakınız.
@@ -139,7 +139,7 @@ Ayrıntılar için `LICENSE`, `NOTICE` ve `CITATION.cff` dosyalarına bakınız.
 ........:::........:::........:: 
 ```
 
-**Ankara Yıldırım Beyazıt Üniversitesi**
+**[`Ankara Yıldırım Beyazıt Üniversitesi`](https://aybu.edu.tr/)**
 
 Teknik Bilimler Meslek Yüksek Okulu
 
