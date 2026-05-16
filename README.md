@@ -120,7 +120,7 @@ Atilgan, A. (2026). Akıllı Ev Otomasyon Sistemleri - ESP32 Wokwi Temel Uygulam
 Ayrıntılar için `LICENSE`, `NOTICE` ve `CITATION.cff` dosyalarına bakınız.
 
 ## Banner
-
+```text
 :::'###::::'##:::'##:'########::'##::::'##:
 ::'## ##:::. ##:'##:: ##.... ##: ##:::: ##:
 :'##:. ##:::. ####::: ##:::: ##: ##:::: ##:
@@ -137,9 +137,11 @@ Ayrıntılar için `LICENSE`, `NOTICE` ve `CITATION.cff` dosyalarına bakınız.
  ##:::: ##: ##:::: ##: ##:::::::           
  ########:: ########:: ########:           
 ........:::........:::........:: 
+```
 
-Ankara Yıldırım Beyazıt Üniversitesi
+**Ankara Yıldırım Beyazıt Üniversitesi**
+
 Teknik Bilimler Meslek Yüksek Okulu
-Dijital Dönüşüm Elektroniği
-https://aybu.edu.tr/tbmyo/tr/sayfa/10024/Dijital-D%C3%B6n%C3%BC%C5%9F%C3%BCm-Elektroni%C4%9Fi-Program%C4%B1
+
+[`Dijital Dönüşüm Elektroniği`](https://aybu.edu.tr/tbmyo/tr/sayfa/10024/Dijital-D%C3%B6n%C3%BC%C5%9F%C3%BCm-Elektroni%C4%9Fi-Program%C4%B1)
                                              
