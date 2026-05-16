@@ -109,7 +109,7 @@ ders materyallerinin, proje açıklamalarının veya bu materyalden türetilmiş
 çalışmaların kullanılması durumunda aşağıdaki şekilde kaynak gösterilmesi
 ahlaki ve akademik olarak beklenir:
 
-**Abdullah ATILGAN, "Akıllı Ev Otomasyon Sistemleri - ESP32 Wokwi Temel Uygulamalar Proje Seti", 2026.**
+**Abdullah ATILGAN, "Akıllı Ev Otomasyon Sistemleri - ESP32 Wokwi Temel Uygulamalar Proje Seti", 2026. https://github.com/bdllhtlgn1/IOT-Temel-Uygulamalar**
 
 Önerilen atıf biçimi:
 
