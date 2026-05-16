@@ -1,4 +1,3 @@
-
 {
   "version": 1,
   "author": "Abdullah ATILGAN",
@@ -12,8 +11,15 @@
       "attrs": {}
     },
     {
+      "type": "wokwi-potentiometer",
+      "id": "pot1",
+      "top": 110,
+      "left": 160,
+      "attrs": {}
+    },
+    {
       "type": "wokwi-led",
-      "id": "led1",
+      "id": "alert",
       "top": -3,
       "left": 153,
       "attrs": {
@@ -29,6 +35,13 @@
       "attrs": {
         "value": "220"
       }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": 150,
+      "left": 220,
+      "attrs": {}
     }
   ],
   "connections": [
@@ -45,20 +58,50 @@
       []
     ],
     [
-      "esp:D2",
+      "pot1:SIG",
+      "esp:D34",
+      "green",
+      []
+    ],
+    [
+      "pot1:VCC",
+      "esp:3V3",
+      "red",
+      []
+    ],
+    [
+      "pot1:GND",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "alert:C",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "alert:A",
       "r1:1",
       "green",
       []
     ],
     [
       "r1:2",
-      "led1:A",
+      "esp:D2",
       "green",
       []
     ],
     [
-      "led1:C",
-      "esp:GND.1",
+      "bz1:1",
+      "esp:D5",
+      "green",
+      []
+    ],
+    [
+      "bz1:2",
+      "esp:GND.2",
       "black",
       []
     ]

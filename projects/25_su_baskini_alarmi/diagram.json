@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "author": "Abdullah ATILGAN",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot1",
+      "top": 110,
+      "left": 160,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "alert",
+      "top": -3,
+      "left": 153,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 64,
+      "left": 149,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": 150,
+      "left": 220,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "esp:TX0",
+      "$serialMonitor:RX",
+      "",
+      []
+    ],
+    [
+      "esp:RX0",
+      "$serialMonitor:TX",
+      "",
+      []
+    ],
+    [
+      "pot1:SIG",
+      "esp:D34",
+      "green",
+      []
+    ],
+    [
+      "pot1:VCC",
+      "esp:3V3",
+      "red",
+      []
+    ],
+    [
+      "pot1:GND",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "alert:C",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "alert:A",
+      "r1:1",
+      "green",
+      []
+    ],
+    [
+      "r1:2",
+      "esp:D2",
+      "green",
+      []
+    ],
+    [
+      "bz1:1",
+      "esp:D5",
+      "green",
+      []
+    ],
+    [
+      "bz1:2",
+      "esp:GND.2",
+      "black",
+      []
+    ]
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,14 @@
+# Arduino / PlatformIO
+.pio/
+.vscode/
+*.elf
+*.bin
+*.hex
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/
